@@ -1,18 +1,51 @@
 site_name: Triton Robotics Docs
 site_description: TR autonomy subteam docs
 site_author: Triton Robotics
+# TODO set site url
 
 repo_name: Triton-Robotics/triton-robotics-docs
 repo_url: https://github.com/Triton-Robotics/triton-robotics-docs
 
 theme: 
   name: material
+  palette:
+    scheme: slate
+    primary: light blue
+    accent: yellow
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top 
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+
+    - search.suggest
     - search.highlight
+
+    - content.code.copy
+
+
 
 nav: 
   - Home: index.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
