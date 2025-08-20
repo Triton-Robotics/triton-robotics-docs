@@ -3,7 +3,7 @@ site_description: TR autonomy subteam docs
 site_author: Triton Robotics
 
 repo_name: Triton-Robotics/triton-robotics-docs
-repo_url: //todo
+repo_url: https://github.com/Triton-Robotics/triton-robotics-docs
 
 theme: 
   name: material
