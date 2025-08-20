@@ -1,0 +1,18 @@
+site_name: Triton Robotics Docs
+site_description: TR autonomy subteam docs
+site_author: Triton Robotics
+
+repo_name: Triton-Robotics/triton-robotics-docs
+repo_url: //todo
+
+theme: 
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top 
+    - search.highlight
+
+nav: 
+  - Home: index.md
